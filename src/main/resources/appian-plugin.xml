@@ -1,0 +1,11 @@
+<appian-plugin name="MNTR Smart service" key="com.appiancorp.amp.mnrt">
+  <plugin-info>
+    <version>1.0.0</version>
+    <application-version min="23.2" />
+  </plugin-info>
+  <smart-service name="monitoringEvent" key="monitorevent2"
+                 class="com.appiancorp.amp.mnrt.smartservice.MonitorEvent2"/>
+  <datatype key="MonitoringEvent" name="Monitoring Event">
+    <class>com.appiancorp.amp.mnrt.models.MonitoringEvent</class>
+  </datatype>
+</appian-plugin>
